@@ -1,6 +1,6 @@
 # 💖 Mesversário Dutícia
 
-**Mesversário Dutícia** é um site simples e especial, criado para celebrar meu relacionamento. A página exibe uma foto do casal, acompanhada de um cronômetro que conta em tempo real o tempo desde o início do namoro: dias, semanas, horas e segundos. Tudo isso embalado por uma trilha sonora significativa para o casal.
+**Mesversário Dutícia** é um site simples e especial, criado para celebrar meu relacionamento. A página exibe uma foto do casal, acompanhada de um cronômetro que conta em tempo real o tempo desde o início do namoro: dias, semanas, horas e segundos. Tudo isso embalado por uma trilha sonora significativa para o casal que é iniciada ao clicar em um botão.
 
 ## 🚀 Tecnologias utilizadas
 
@@ -14,7 +14,7 @@
 
 * Exibição de um cronômetro em tempo real que mostra dias, semanas, horas, minutos e segundos do tempo de relacionamento.
 * Foto do casal em destaque.
-* Música de fundo que representa o casal.
+* Botão para iniciar a música tema do casal.
 * Frase personalizada ao final da página.
 
   ---
