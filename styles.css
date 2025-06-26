@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.imagem {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+}
+
+.texto {
+    margin-top: 20px;
+}
+
+#cronometro {
+    font-size: 2em;
+    color: #333;
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #ff69b4;
+    text-align: center;
+}
+
+/* Estilo do botão */
+#botaoTocar {
+    background-color: #ff69b4; /* Cor de fundo rosa */
+    color: white; /* Cor do texto */
+    font-size: 1.2em; /* Tamanho da fonte */
+    padding: 15px 30px; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 25px; /* Borda arredondada */
+    cursor: pointer; /* Adiciona o cursor de pointer */
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+    margin-top: 20px; /* Adiciona um espaço acima do botão */
+}
+
+/* Efeito de hover */
+#botaoTocar:hover {
+    background-color: #ff1493; /* Cor de fundo mais escura */
+    transform: scale(1.05); /* Aumenta um pouco o tamanho */
+}
+
+/* Efeito quando o botão estiver desabilitado */
+#botaoTocar:disabled {
+    background-color: #ddd; /* Cor de fundo cinza */
+    color: #aaa; /* Cor do texto cinza */
+    cursor: not-allowed; /* Muda o cursor para 'não permitido' */
+}

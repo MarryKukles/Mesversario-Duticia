@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mêsversário dutícia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Adicionando a música -->
+    <audio id="musica">
+        <source src="Baby  - Gal Costa instrumental.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio HTML5.
+    </audio>
+
+    <div class="container">
+        <img src="https://i.postimg.cc/DztKHGXD/078163-BB-A9-BE-4-BA0-9-D29-D00-D9-AD8270-E.jpg" alt="duticia" class="imagem">
+        <div class="texto">
+            <h1>Juntas há:</h1>
+            <div id="cronometro"></div>
+            <div id="mensagem"></div>
+            <!-- Botão para tocar a música -->
+            <button id="botaoTocar" onclick="tocarMusica()">Tocar Música</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
